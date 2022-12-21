@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.--button {
+  
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 10px 5px 10px;
+}
+
+.fetcher{
+  padding: auto;
+  margin-left: 50%;
+  margin-right: 10px;
+}
