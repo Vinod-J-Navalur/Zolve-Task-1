@@ -15,17 +15,32 @@ code {
 .--button {
   
   font-family: "Karla", sans-serif;
-  border-radius: 5px;
-  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 20px;
+  font-size: 15px;
+  background: linear-gradient(90.41deg, #7879FF 1.14%, #1F1FFF 100%);
   color: white;
   border: none;
   cursor: pointer;
-  margin-top: 20px;
+  margin-left: 10px;
+  margin-top: 0px;
   padding: 5px 10px 5px 10px;
 }
 
 .fetcher{
   padding: auto;
-  margin-left: 50%;
+  margin-left: 42%;
   margin-right: 10px;
+}
+
+h2{
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+.footer{
+  margin-left: 35%;
+  font-weight: bold;
+}
+a{
+  color: blue;
 }
