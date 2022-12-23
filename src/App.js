@@ -7,7 +7,7 @@ const App = () => {
 
   let actualData = {}
   const [daaa,setDaaa] = useState([])
-  const [fetcher,setFetcher] = useState({fetch: "popular",order: "asc"})
+  const [fetcher,setFetcher] = useState({fetch: "popular",order: "desc"})
   async function getData(){
     const url = `https://api.stackexchange.com/2.3/tags?order=${fetcher.order}&sort=${fetcher.fetch}&site=stackoverflow`
     const response = await fetch(url);
